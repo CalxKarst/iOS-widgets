@@ -1,6 +1,7 @@
 // Variables used by Scriptable.
 // These must be at the very top of the file. Do not edit.
 // icon-color: deep-blue; icon-glyph: trophy;
+// The widget takes in player tag as input and then displays their favorite card
 const fm = FileManager.local();
 
 const playerTag = args.widgetParameter;
@@ -8,7 +9,7 @@ const playerTag = args.widgetParameter;
 const path1 = fm.joinPath(fm.documentsDirectory(), "cardIcon"+playerTag.slice(1));
 const path2 = fm.joinPath(fm.documentsDirectory(), playerTag.slice(1) + ".txt");
 
-const key = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6ImViNzVhNThkLTAxZGMtNGM0Ni05Y2JmLWI3ZTA5MmQyZmMyZSIsImlhdCI6MTYwMzgxNTg4MCwic3ViIjoiZGV2ZWxvcGVyLzIxYzQ3MTcyLTFlZGEtMzRiZC0wM2NiLTViNzgyOWJkMmI2MiIsInNjb3BlcyI6WyJyb3lhbGUiXSwibGltaXRzIjpbeyJ0aWVyIjoiZGV2ZWxvcGVyL3NpbHZlciIsInR5cGUiOiJ0aHJvdHRsaW5nIn0seyJjaWRycyI6WyIxMjguMTI4LjEyOC4xMjgiXSwidHlwZSI6ImNsaWVudCJ9XX0.429Dcum1O_0Mepd0A4oYbKhFL7BZlnPZ1fOTo6me2-ePAY5-M-4FOcazP2v0tpRg7BGn4j1g82bdSTd0FnmQvA";
+const key = "<insert key here>";
 
 let res = "";
 let im = "";
