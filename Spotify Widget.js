@@ -1,8 +1,11 @@
 // Variables used by Scriptable.
 // These must be at the very top of the file. Do not edit.
 // icon-color: deep-green; icon-glyph: wifi;
-const clientId = "b99f394ed8704a648dacc69aab28b374";
-const clientSecret = "21c48ac827794ea9bd02d959410b82d7";
+// This widget basically displays the current song that you are listening to
+// it also takes care of cases like when you are not connected to internet and the request fails
+// by saving the last succesful JSON
+const clientId = "<clientId here>";
+const clientSecret = "<clientSecret here>";
 const userId = "me";
 
 let fm = FileManager.local();
