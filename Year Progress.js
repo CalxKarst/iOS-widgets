@@ -1,6 +1,8 @@
 // Variables used by Scriptable.
 // These must be at the very top of the file. Do not edit.
 // icon-color: deep-purple; icon-glyph: spinner;
+// The widget uses system clock so it is simple to export it to other devices
+// But not sure about the dimensions though, since they were hard coded for iPhone XR
 const cdate = new Date()
 console.log(cdate)
 
